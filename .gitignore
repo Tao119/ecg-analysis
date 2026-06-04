@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.DS_Store
+
+# Data (regenerate with generate_synthetic_ecg.py)
+ecg_data.npz
+
+# Model weights
+*.pt
+*.pth
+
+# Outputs
+*.png
+*.log
